@@ -1,0 +1,343 @@
+/* CSS Document */
+body{width:98%;padding-left:1%; background:#FCFBF9;}
+/*header*/
+#top{
+	width:100%;
+	height:166px;
+	background:url(../images/98.jpg) repeat-x;
+	margin-top:-10px;
+}
+#top .logo{
+	margin-top:55px;
+}
+#top .top{
+	width:450px; 
+	height:135px; 
+	float:left;
+}
+#top .topNav{
+	color:#65615E;
+}
+#top .topNav .symbol{
+	font-size:60px;
+	padding-left:20px;
+	margin-top:92px;
+}
+#top .topNav .word{
+	width:200px;
+	height:52px;
+	line-height:20px;
+	margin-top:82px;
+	margin-left:10px;
+}
+#top .topNav .word span{
+	font-size:20px;
+	font-weight:bold;
+} 
+#top .nav{
+	width:518px;
+	height:162px;
+}
+#top .nav li{
+	width:74px;
+	float:left;
+	padding-top:-20px;
+}
+#top .nav li a{
+	display:block; 
+	width:74px; 
+	height:165px; 
+	text-align:center; 
+	margin-top:110px; 
+	color:#65615E; 
+	text-decoration:none;
+}
+#top .nav li:hover{ 
+	background:url(../images/beijing.2.jpg) no-repeat;
+}
+#top .nav li:hover a{
+	color:#FC3;
+}
+/*header end*/
+.blank{ 
+	width:100%; 
+	height:27px;
+	background:url(../images/98.jpg) repeat-x;
+}
+/*content*/
+#content{
+	width:100%;
+	height:1200px;
+	background-image:linear-gradient(to bottom,
+		rgba(255,255,255,1) 43%,
+		rgba(255,255,244,0.7) 62%,
+		rgba(252,251,249,0.7) 33%) ;
+}
+#content div.con ul.one{
+	width:500px;
+	height:240px;
+	background:#E5E5E5;
+	box-shadow:1px 1px 2px #000;
+}
+#content div.con ul.one dt{
+	width:30px;
+	height:90px;
+	margin-top:35px;
+	margin-left:20px; 
+}
+#content div.con ul.one dt span{
+	display:block;
+	width:30px;
+	height:2px;
+	background:#000;
+}
+#content div.con ul.one dd{
+	width:450px;
+	height:24px;
+	line-height:74px;
+	text-shadow:0 1px 1px #669;
+	color:#000;
+}
+#content div.con ul.one dd.big{
+	font-size:14px;
+	text-shadow:0 1px 1px #669;
+	font-weight:bold;
+	margin-bottom:16px;
+}
+#content div.con ul.one1{ 
+	height:240px;
+}
+#content div.con ul.one1 img{
+	margin-top:25px; 
+}
+#content div.con2 ul.two{
+	width:400px;
+	height:374px;
+	background:#F2F2F2;
+	margin-left:10%;
+	box-shadow:1px 1px 2px #000;
+}
+#content div.con2 ul.two dt{
+	width:30px;
+	height:150px;
+	margin-top:35px;
+	margin-left:20px; 
+}
+#content div.con2 ul.two dt span{
+	display:block;
+	width:30px;
+	height:2px;
+	background:#000;
+}
+#content div.con2 ul.two dd{
+	width:450px;
+	height:24px;
+	line-height:74px;
+	text-shadow:0 1px 1px #669;
+	color:#000;
+
+}
+#content div.con2 ul.two dd.big{
+	font-size:14px;
+	text-shadow:0 1px 1px #669;
+	font-weight:bold;
+	margin-bottom:16px;
+}
+
+
+#content div.con2 ul.two1{
+	width:485px;
+	height:289px;
+	background:#e5e5e5;
+	box-shadow:1px 1px 2px #000;
+}
+#content div.con2 ul.two1 dt{
+	width:30px;
+	height:150px;
+	margin-top:35px;
+	margin-left:20px; 
+}
+#content div.con2 ul.two1 dt span{
+	display:block;
+	width:30px;
+	height:2px;
+	background:#000;
+}
+#content div.con2 ul.two1 dd{
+	width:450px;
+	height:24px;
+	line-height:74px;
+	text-shadow:0 1px 1px #669;
+	color:#000;
+
+}
+#content div.con2 ul.two1 dd.big{
+	font-size:14px;
+	text-shadow:0 1px 1px #669;
+	font-weight:bold;
+	margin-bottom:16px;
+}
+#content div.con2 ul.two2{
+
+}
+#content div.con2 ul.two2 img{
+	width:216px;
+	height:216px;
+	margin-left:-700px;
+	margin-top:288px;
+}
+#content div.con2 ul.two2 span{
+	display:block;
+	font-size:56px;
+	color:#A68660;
+	margin-top:-200px;
+	
+}
+#content div.con3{
+	width:100%;
+	height:405px;
+	position:absolute;
+	margin-top:200px;
+}
+
+#content div.con3 ul.kuang{
+	width:300px;
+	height:288px;
+	float:left;
+	margin-top:37px;
+	margin-left:3%; 
+	overflow:hidden;
+	box-shadow:1px 1px 2px #333;
+}
+#content div.con3 ul.kuang li.girl{
+	width:300px; 
+	height:230px;
+	transition:3s;
+
+}
+#content div.con3 ul.kuang li.girl img{
+	width:300px;
+	height:230px;
+}
+#content div.con3 ul.kuang li.word{
+	width:300px; 
+	height:56px; 
+	background:url(../images/12.jpg) repeat-x; 
+	line-height:56px; 
+	text-align:center;
+	font-size:1.2em;
+	text-shadow:0 1px 1px #669;
+}
+#content div.con3 ul.kuang li.word a{
+	text-decoration:none;
+	color: #999;
+}
+#content div.con3 ul.kuang li.word ul.top1 li{
+	width:302px;
+	height: 231px;
+	line-height:22px;
+	color:#000;
+	display: none;
+	background-image:linear-gradient(to bottom,
+		rgba(245,240,250,1) 43%,
+		rgba(220,220,220,0.7) 62%,
+		rgba(245,225,255,0.4) 33%) ;
+
+}
+#content div.con3 ul.kuang li.word ul.top2 li{
+	width: 300px;
+	height: 234px; 
+	line-height: 22px; 
+	color: #000;
+	display: none;
+	background-image:linear-gradient(to bottom,
+		rgba(245,240,250,1) 43%,
+		rgba(220,220,220,0.7) 62%,
+		rgba(245,225,255,0.6) 33%) ;
+}
+#content div.con3 ul.kuang li.word ul.top3 li{
+	width:300px;
+	height: 232px;
+	line-height:22px;
+	display: none;
+	color: #000;
+	background-image:linear-gradient(to bottom,
+		rgba(245,240,250,1) 43%,
+		rgba(220,220,220,0.7) 62%,
+		rgba(245,225,255,0.5) 33%) ; 
+}
+#content div.con3 ul.kuang li.girl:hover{
+	transform:scale(1.5); 
+	transition:3s;
+}
+#content div.con3 ul.kuang li.word:hover ul.top1 li{
+	display:block; position:absolute; left:38px; top:37px; z-index:999;
+}
+#content div.con3 ul.kuang li.word:hover ul.top2 li{
+	display: block; position: absolute; left:381px; top: 37px; z-index:888;
+
+}
+#content div.con3 ul.kuang li.word:hover ul.top3 li{
+	display:block; position:absolute; right:327px; top:37px; z-index:999;
+}
+/*content end*/
+.blank{ 
+	width:100%; 
+	height:27px;
+	background:url(../images/98.jpg) repeat-x;
+}
+/*footer*/
+#footer{
+	width:100%;
+	height:380px; 
+	background:#000007;
+}
+#footer div.at{
+	width:100%; 
+	height:70px;
+}
+#footer div.at li{ 
+	width:75px; 
+	height:40px; 
+	float:left; 
+}
+#footer div.at li a{
+	display:block; 
+	width:75px; 
+	height:40px; 
+	text-align: center; 
+	line-height:40px; 
+	color:#fff; 
+	font-size:14px;
+	text-decoration:none;
+}
+
+#footer div.chuanzhen{
+	width:100%; 
+	height:90px; 
+	margin-left:25%;
+}
+#footer div.chuanzhen li{
+	color:#fff; 
+	height:30px;
+}
+#footer div.chuanzhen li img{
+	vertical-align:-8px; 
+	margin-left:5px;
+}
+
+#footer div.nmb{
+	width:100%; 
+	height:70px; 
+	margin-top:20px;
+}
+#footer div.nmb li{ 
+	height:30px;
+	margin-left:48%; 
+	color:#fff; 
+}
+#footer div.back{ 
+	color:#fff; 
+	font-size:16px; 
+}
+/*footer end*/

@@ -1,0 +1,393 @@
+/* CSS Document */
+body{width:98%;padding-left:1%; background:#FCFBF9;}
+/*header*/
+#top{
+	width:100%;
+	height:166px;
+	background:url(../images/98.jpg) repeat-x;
+	margin-top:-10px;
+}
+#top .logo{
+	margin-top:55px;
+}
+#top .top{
+	width:450px; 
+	height:135px; 
+	float:left;
+}
+#top .topNav{
+	color:#65615E;
+}
+#top .topNav .symbol{
+	font-size:60px;
+	padding-left:20px;
+	margin-top:92px;
+}
+#top .topNav .word{
+	width:200px;
+	height:52px;
+	line-height:20px;
+	margin-top:82px;
+	margin-left:10px;
+}
+#top .topNav .word span{
+	font-size:20px;
+	font-weight:bold;
+} 
+#top .nav{
+	width:518px;
+	height:162px;
+}
+#top .nav li{
+	width:74px;
+	float:left;
+	padding-top:-20px;
+}
+#top .nav li a{
+	display:block; 
+	width:74px; 
+	height:165px; 
+	text-align:center; 
+	margin-top:110px; 
+	color:#65615E; 
+	text-decoration:none;
+}
+#top .nav li:hover{ 
+	background:url(../images/beijing.2.jpg) no-repeat;
+}
+#top .nav li:hover a{
+	color:#FC3;
+}
+/*header end*/
+.blank{ 
+	width:100%; 
+	height:27px;
+	
+}
+/*content*/
+#content{
+	width: 100%;
+	height:1000px;
+}
+#content div.con1{
+	width: 100%;
+	height:460px;
+	background:url(../images/img2.jpg) 70% 40% no-repeat;
+	background-size:86%;
+	
+}
+#content div.con1 ul.ce{
+	margin-left:10px;
+	padding-top:10px;
+	position:relative;
+}
+#content div.con1 ul.ce li.wai{
+	width:16%;
+	height:58px;
+	line-height:60px;
+	text-align:center;
+	background:#999;
+	font-size:16px;
+	box-shadow:2px 4px 0 #666;
+	margin-top: 2px;
+}
+#content div.con1 ul li a{
+	text-decoration: none;
+	color:#fff;
+}
+#content div.con1 ul.ce li.wai ul.nei{
+	width:800px;
+	height:433px;
+	position:absolute; 
+	left:16.2%; top:13px; 
+	transition:2s;
+
+	display:none; 
+}
+#content div.con1 ul.ce li.wai ul.nei li.one{
+	float:left;
+	width:240px;
+	height:210px;
+	margin-left:10px;
+	margin-top:10px;
+}
+#content div.con1 ul.ce li.wai ul.nei li.one p{
+	width:240px; height:30px;text-align:center;font-size:14px; 
+	margin-top:-54px; line-height:30px; background:#000;
+	color:#fff; opacity:0;
+}
+#content div.con1 ul.ce li.wai ul.nei li.one img{
+	width:240px;
+	height:180px; 
+}
+#content div.con1 ul.ce li.wai ul.nei li.one:hover p{
+	height:90px; 
+	margin-top:-114px;
+	transition:2s;
+	opacity:1;
+}
+#content div.con1 ul.ce li.wai ul.nei li.one:hover img{
+	opacity:0.6; transition:6s;
+}
+#content div.con1 ul.ce li.wai:hover{
+	box-shadow:none;
+}
+#content div.con1 ul.ce li.wai:hover a{
+	color:#F2C6C6;;
+}
+#content div.con1 ul.ce li.wai:hover ul.nei{
+	display:block; 
+	position:absolute; 
+	left:16.3%; top:13px; 
+	z-index:999;
+	transition:6s;
+}
+#content div.con2{
+	width:100%;
+	height:460px;
+	
+}
+#content div.con2 div.zuo{
+	width:49%;	
+}
+#content div.con2 div.zuo ul.first{
+	width:100%;
+	height:140px;
+}
+#content div.con2 div.zuo ul.first li.mou{
+	font-size:14px;
+	color:#F2C6C6;
+	margin-left: 16%;
+	height:46px;
+	line-height:80px;
+}
+#content div.con2 div.zuo ul.first li.ding{
+	font-size:20px;
+	color:#F2C6C6;
+	margin-left:15%;
+	margin-top:5px;
+}
+#content div.con2 div.zuo ul.first li.xian{
+	width:96%;
+	border-bottom:2px solid #C9BCBC;
+	margin-left:4%; 
+	margin-top:26px;
+}
+#content div.con2 div.zuo ul.second{
+	width:100%;
+	height:140px;	
+	background:#fff;
+}
+#content div.con2 div.zuo ul.second dt.shuzi{
+	width:26%;
+	height:140px;
+	font-size:90px;
+	line-height:140px;
+	text-align:center;
+	float:left;
+}
+#content div.con2 div.zuo ul.second dd{
+	width:100%;
+	height:30px;
+	line-height:30px;	
+}
+#content div.con2 div.zuo ul.second dd.mei{
+	font-size:14px;
+	line-height:86px;
+}
+#content div.con2 div.zuo ul.second dd.gang{
+	width:40px;
+	border-bottom:2px solid #ccc;
+	margin-left:26%;
+	line-height:20px;
+}
+#content div.con2 div.zuo ul.third{
+	width:100%;
+	height:140px;	
+	background:#fff;
+}
+#content div.con2 div.zuo ul.third dt.shuzi{
+	width:26%;
+	height:140px;
+	font-size:90px;
+	line-height:140px;
+	text-align:center;
+	float:left;
+}
+#content div.con2 div.zuo ul.third dd{
+	width:100%;
+	height:30px;
+	line-height:30px;	
+}
+#content div.con2 div.zuo ul.third dd.mei{
+	font-size:14px;
+	line-height:86px;
+}
+#content div.con2 div.zuo ul.third dd.gang{
+	width:40px;
+	border-bottom:2px solid #ccc;
+	margin-left:26%;
+	line-height:20px;
+}
+#content div.con2 div.you{
+	width:49%;
+}
+#content div.con2 div.you ul.first{
+	width:100%;
+	height:140px;
+}
+#content div.con2 div.you ul.first li.mou{
+	font-size:20px;
+	color:#F2C6C6;
+	margin-left: 15%;
+	height:46px;
+	line-height:80px;
+
+}
+#content div.con2 div.you ul.first li.ding{
+	font-size:16px;
+	color:#F2C6C6;
+	margin-left:15%;
+	margin-top:5px;
+}
+#content div.con2 div.you ul.first li.xian{
+	width:96%;
+	border-bottom:2px solid #C9BCBC;
+	margin-right:4%; 
+	margin-top:26px;
+}
+#content div.con2 div.you ul.second{
+	width:100%;
+	height:140px;	
+	background:#fff;
+}
+#content div.con2 div.you ul.second dt.shuzi{
+	width:26%;
+	height:140px;
+	font-size:90px;
+	line-height:140px;
+	text-align:center;
+	float:left;
+}
+#content div.con2 div.you ul.second dd{
+	width:100%;
+	height:30px;
+	line-height:30px;	
+}
+#content div.con2 div.you ul.second dd.mei{
+	font-size:14px;
+	line-height:86px;
+}
+#content div.con2 div.you ul.second dd.gang{
+	width:40px;
+	border-bottom:2px solid #ccc;
+	margin-left:26%;
+	line-height:20px;
+}
+#content div.con2 div.you ul.third{
+	width:100%;
+	height:140px;	
+	background:#fff;
+}
+#content div.con2 div.you ul.third dt.shuzi{
+	width:26%;
+	height:140px;
+	font-size:90px;
+	line-height:140px;
+	text-align:center;
+	float:left;
+}
+#content div.con2 div.you ul.third dd{
+	width:100%;
+	height:30px;
+	line-height:30px;	
+}
+#content div.con2 div.you ul.third dd.mei{
+	font-size:14px;
+	line-height:86px;
+}
+#content div.con2 div.you ul.third dd.gang{
+	width:40px;
+	border-bottom:2px solid #ccc;
+	margin-left:26%;
+	line-height:20px;
+}
+#content div.con2 div.zuo ul.second:hover{
+	background: #B7A5A5;color:#fff;
+}
+#content div.con2 div.zuo ul.second:hover dd.gang{
+	border-bottom:2px solid #fff;
+}
+#content div.con2 div.zuo ul.third:hover{
+	background: #B7A5A5;color:#fff;
+}
+#content div.con2 div.zuo ul.third:hover dd.gang{
+	border-bottom:2px solid #fff;}
+#content div.con2 div.you ul.second:hover{
+	background: #B7A5A5;color:#fff;
+}
+#content div.con2 div.you ul.second:hover dd.gang{
+	border-bottom:2px solid #fff;}
+#content div.con2 div.you ul.third:hover{
+	background: #B7A5A5;color:#fff;
+}
+#content div.con2 div.you ul.third:hover dd.gang{
+	border-bottom:2px solid #fff;}
+/*content end*/
+
+
+/*footer*/
+#footer{
+	width:100%;
+	height:380px; 
+	background:#000007;
+}
+#footer div.at{
+	width:100%; 
+	height:70px;
+}
+#footer div.at li{ 
+	width:75px; 
+	height:40px; 
+	float:left; 
+}
+#footer div.at li a{
+	display:block; 
+	width:75px; 
+	height:40px; 
+	text-align: center; 
+	line-height:40px; 
+	color:#fff; 
+	font-size:14px;
+	text-decoration:none;
+}
+
+#footer div.chuanzhen{
+	width:100%; 
+	height:90px; 
+	margin-left:25%;
+}
+#footer div.chuanzhen li{
+	color:#fff; 
+	height:30px;
+}
+#footer div.chuanzhen li img{
+	vertical-align:-8px; 
+	margin-left:5px;
+}
+
+#footer div.nmb{
+	width:100%; 
+	height:70px; 
+	margin-top:20px;
+}
+#footer div.nmb li{ 
+	height:30px;
+	margin-left:48%; 
+	color:#fff; 
+}
+#footer div.back{ 
+	color:#fff; 
+	font-size:16px; 
+}
+/*footer end*/
